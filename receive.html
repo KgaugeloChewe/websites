@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create your curriculum vitae</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body background="picturehtml/city-skyline-and-buildings-with-empty-asphalt-road-at-sunrise.jpg">
+
+  <div class="container" id="signup">
+<h1 class="form-tittle">Online Curriculum Vitae</h1>
+<h2>Create your CV with the best website!!!</h2>
+<h3>Personal Information</h3>
+<form method="post" action="register.php">
+  <div class="input-group">
+    <i class="fas fa-user"></i>
+    <input type="text" name="fName" id="fName" placeholder="Full Names" required>
+    <label for="fname"></label>
+  </div>
+<div class="input-group">
+  <i class="fas fa-envelope"></i>
+  <input type="email" name="email" id="email" placeholder="Email" required>
+  <label for="email"></label>
+</div>  
+  <input type="bio" name="bio" id="bio" placeholder="Short-Bio/Description">
+  <label for="Description"></label>
+
+<h3>Education</h3>
+<ol>
+  <div class="input-group">
+    <input type="grade" name="grade" id="grade" placeholder="1-12" required>
+    <label for="Grade">Highest Grade</label>
+    </div>
+    <input type="score1" name="score1" id="score1" placeholder="1-100" required>
+    <label for="Score">1st Content Score</label>
+    <input type="score2" name="score2" id="score2" placeholder="1-100" required>
+    <label for="Score">2nd Content Score</label>
+    <input type="score3" name="score3" id="score3" placeholder="1-100" required>
+    <label for="Score">3rd Content Score</label>
+    <input type="score4" name="score4" id="score4" placeholder="1-100" required>
+    <label for="Score">1stAddLang Score</label>
+</ol>
+
+<h3>Work experience</h3>
+<input type="experience" name="experience" id="experience" placeholder="Your Experience" required>
+<label for="experience"></label>
+
+<h3>Skills</h3>
+<input type="skills" name="skills" id="skills" placeholder="Your Skills" required>
+<label for="skills"></label>
+
+<h3>Projects</h3>
+<input type="text" name="projects" id="projects" placeholder="Your Previous Projects" required>
+<label for="projects"></label>
+
+<h3>Contacts</h3>
+<div class="input-group">
+  <i class="fas fa-phone"></i>
+  <input type="phone" name="phone" id="phone" placeholder="Contact details" required>
+  <label for="Contact"></label>
+</div>
+
+<input type="submit" class="btn" value="Create" name="Create">
+<p class="or">
+  ----------or-----------
+</p>
+
+</form>
+<a href="index.html">Go To Home</a>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
